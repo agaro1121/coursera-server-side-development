@@ -35,3 +35,14 @@ The perimeter of the rectangle is 16
 Solving for rectangle with length -3 and width = 5
 Rectangle dimensions should be greater than zero
 ```
+
+###week1/rectangle-with-callback-test2.js
+```bash
+ > node rectangle-with-callback-test2 --l=2 --w=3
+Solving for rectangle with l = 2 and w = 3
+Area of the rectangle: 6
+Perimeter of the rectangle: 10
+ > node rectangle-with-callback-test2 --l=-2 --w=3
+Solving for rectangle with l = -2 and w = 3
+[Error: Rectangle sides should be greater than zero !]
+```
