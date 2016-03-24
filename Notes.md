@@ -37,3 +37,8 @@ HTTP GET    <> READ
 HTTP POST   <> CREATE
 HTTP PUT    <> UPDATE
 HTTP DELETE <> DELETE
+
+```bash
+npm install mongodb --save
+npm install assert --save
+```
