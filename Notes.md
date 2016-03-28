@@ -42,3 +42,19 @@ HTTP DELETE <> DELETE
 npm install mongodb --save
 npm install assert --save
 ```
+
+```javascript
+var dishSchema = new Schema({
+    name: {
+        type: String,
+        required: true,
+        unique: true //only 1 document with this name
+    },
+    description: {
+        type: String,
+        required: true
+    }
+}, {
+    timestamps: true //created-at and updated-at TS. Automatically done when this flag is set
+});
+```
